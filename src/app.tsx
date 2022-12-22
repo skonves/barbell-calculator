@@ -5,7 +5,9 @@ export const App: React.FC<{}> = () => {
   return (
     <>
       Hello from React!
-      <h1>Random number: {randomNumber}</h1>
+      <h1 className="text-3xl font-bold underline">
+        Random number: {randomNumber}
+      </h1>
     </>
   );
 };
